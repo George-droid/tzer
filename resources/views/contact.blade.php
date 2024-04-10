@@ -93,10 +93,10 @@
                       </div>
                       <div class="icon-box-content">
                         <p class="mb-1">Email.
-                          <span class="color-a">contact@example.com</span>
+                          <span class="color-a">info@tzerproperties.ng</span>
                         </p>
                         <p class="mb-1">Phone.
-                          <span class="color-a">+54 356 945234</span>
+                          <span class="color-a">+234 813 5746 414</span>
                         </p>
                       </div>
                     </div>

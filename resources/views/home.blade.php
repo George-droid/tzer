@@ -16,16 +16,16 @@
                 <div class="row">
                   <div class="col-lg-8">
                     <div class="intro-body">
-                      <p class="intro-title-top">Doral, Florida
-                        <br> 78345
+                      <p class="intro-title-top">Interiors
+                        <br> 
                       </p>
                       <h1 class="intro-title mb-4 ">
-                        <span class="color-b">204 </span> Mount
-                        <br> Olive Road Two
+                        <span class="color-b">Explore </span>
+                        <br> Interior Plans
                       </h1>
-                      <p class="intro-subtitle intro-price">
+                      {{-- <p class="intro-subtitle intro-price">
                         <a href="#"><span class="price-a">Explore properties</span></a>
-                      </p>
+                      </p> --}}
                     </div>
                   </div>
                 </div>
@@ -41,16 +41,16 @@
                 <div class="row">
                   <div class="col-lg-8">
                     <div class="intro-body">
-                      <p class="intro-title-top">Doral, Florida
-                        <br> 78345
+                      <p class="intro-title-top"> Terrace
+                        <br> 
                       </p>
                       <h1 class="intro-title mb-4">
-                        <span class="color-b">204 </span> Rino
-                        <br> Venda Road Five
+                        <span class="color-b">Explore </span> Top Notch
+                        <br> Terrace plans
                       </h1>
-                      <p class="intro-subtitle intro-price">
+                      {{-- <p class="intro-subtitle intro-price">
                         <a href="#"><span class="price-a">Explore properties</span></a>
-                      </p>
+                      </p> --}}
                     </div>
                   </div>
                 </div>
@@ -66,16 +66,16 @@
                 <div class="row">
                   <div class="col-lg-8">
                     <div class="intro-body">
-                      <p class="intro-title-top">Doral, Florida
-                        <br> 78345
+                      <p class="intro-title-top"> Estates
+                        <br> 
                       </p>
                       <h1 class="intro-title mb-4">
-                        <span class="color-b">204 </span> Alira
-                        <br> Roan Road One
+                        <span class="color-b">Explore </span> 
+                        <br> Estate Unit Plans
                       </h1>
-                      <p class="intro-subtitle intro-price">
+                      {{-- <p class="intro-subtitle intro-price">
                         <a href="#"><span class="price-a">Explore properties</span></a>
-                      </p>
+                      </p> --}}
                     </div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@
             <div class="col-md-12 section-t8 position-relative">
               <div class="row">
                 <div class="col-md-6 col-lg-5">
-                  <img src="{{ asset('img/about-2.jpg') }}" alt="" class="img-fluid">
+                  <img src="{{ asset('img/about-us.jpg') }}" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-2  d-none d-lg-block position-relative">
                   <div class="title-vertical d-flex justify-content-start">
@@ -107,7 +107,7 @@
                 <div class="col-md-6 col-lg-5 section-md-t3">
                   <div class="title-box-d">
                     <h3 class="title-d">Affordable
-                      <span class="color-d">Luxery</span>
+                      <span class="color-d">Luxury</span>
                       <br> Properties.
                     </h3>
                   </div>

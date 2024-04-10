@@ -36,7 +36,7 @@
 
 <body>
 
-  <!-- ======= Property Search Section ======= -->
+  {{-- <!-- ======= Property Search Section ======= -->
   <div class="click-closed"></div>
   <!--/ Form Search Star /-->
   <div class="box-collapse">
@@ -128,7 +128,8 @@
         </div>
       </form>
     </div>
-  </div><!-- End Property Search Section -->>
+  </div> --}}
+  <!-- End Property Search Section -->>
 
   <!-- ======= Header/Navbar ======= -->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -140,7 +141,7 @@
       </button>
       <a class="navbar-brand text-brand" href="{{ route('home') }}">Tzer<span class="color-b">Properties</span></a>
 
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
 
           <li class="nav-item">
@@ -174,12 +175,13 @@
         </ul>
       </div>
 
-      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+      {{-- <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
         <i class="bi bi-search"></i>
-      </button>
+      </button> --}}
 
     </div>
-  </nav><!-- End Header/Navbar -->
+  </nav>
+  <!-- End Header/Navbar -->
 
 
   @yield('content')
@@ -282,19 +284,19 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="{{ route('home') }}">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="{{ route('about') }}">About</a>
               </li>
-              <li class="list-inline-item">
+              {{-- <li class="list-inline-item">
                 <a href="#">Property</a>
               </li>
               <li class="list-inline-item">
                 <a href="#">Blog</a>
-              </li>
+              </li> --}}
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="{{ route('contact') }}">Contact</a>
               </li>
             </ul>
           </nav>
@@ -329,7 +331,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <span class="color-text-a">Email .</span> contact@tzerproperties.com
+                <span class="color-text-a">Email .</span> info@tzerproperties.ng
                 </a>
               </li>
             </ul>
