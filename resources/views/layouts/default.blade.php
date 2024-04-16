@@ -139,7 +139,8 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="{{ route('home') }}">Tzer<span class="color-b">Properties</span></a>
+      {{-- <a class="navbar-brand text-brand" href="{{ route('home') }}">Tzer<span class="color-b">Properties</span></a> --}}
+      <a class="navbar-brand text-brand" href="{{ route('home') }}"><img src="{{ asset('img/tzer_logo.png') }}" /></a>
 
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
@@ -280,7 +281,11 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="w-header-a col-md-3">
+          {{-- <h3 class="w-title-a text-brand">TZERProperties</h3> --}}
+          <a class="footer-brand text-brand" href="{{ route('home') }}"><img src="{{ asset('img/tzer_logo.png') }}" /></a>
+        </div>
+        <div class="col-md-9">
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">

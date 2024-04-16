@@ -1377,7 +1377,7 @@
       </section> <!-- End Latest News Section --> --}}
 
       <!-- ======= Testimonials Section ======= -->
-      <section class="section-testimonials section-t8 nav-arrow-a">
+      {{-- <section class="section-testimonials section-t8 nav-arrow-a">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -1453,7 +1453,8 @@
           <div class="testimonial-carousel-pagination carousel-pagination"></div>
 
         </div>
-      </section><!-- End Testimonials Section -->
+      </section> --}}
+      <!-- End Testimonials Section -->
 
     </main><!-- End #main -->
 

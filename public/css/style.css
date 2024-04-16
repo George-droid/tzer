@@ -739,6 +739,16 @@ a:hover {
   color: #000000;
 }
 
+.navbar-brand img{
+  max-width: 60px;
+  min-height: 70px;
+}
+
+.footer-brand img{
+  max-width: 75px;
+  min-height: 85px;
+}
+
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
   border-left: 4px solid #1f57a9;
